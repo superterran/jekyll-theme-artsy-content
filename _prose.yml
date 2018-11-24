@@ -54,7 +54,7 @@ prose:
             value: 'services'
           - name:   'Contact'
             value: 'contact'            
-    _art:
+    _content/_art:
       - name: "image"
         field:
           element: "text"
@@ -76,7 +76,7 @@ prose:
         field:
           element: "checkbox"
           label: "Display on Homepage"
-    _services:
+    _content/_services:
       - name: "header-img"
         field:
           element: "text"
