@@ -119,4 +119,4 @@ prose:
           - name:   'Tutor'
             value: 'tutor'              
   ignore:
-    - Gemfile.lock
+    - README.md
