@@ -119,9 +119,4 @@ prose:
           - name:   'Tutor'
             value: 'tutor'              
   ignore:
-    - _config.yml
-    - /_prose.yml
-    - Gemfile
     - Gemfile.lock
-    - README.md
-    - /docs
