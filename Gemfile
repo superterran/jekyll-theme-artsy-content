@@ -2,7 +2,7 @@
 gem "jekyll", "~> 3.8"
 
 # My selected theme gem
-gem "jekyll-theme-artsy"
+gem "jekyll-theme-artsy", :path=>'/mnt/d/repos/artsy/'
 
 # Any plugins I'm using
 group :jekyll_plugins do
