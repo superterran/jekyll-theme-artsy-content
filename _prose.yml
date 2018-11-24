@@ -3,7 +3,7 @@ prose:
   siteurl: ''
   media: 'media'
   metadata:
-    _posts:
+    _content/_posts:
       - name: "subtitle"
         field:
           element: "textarea"
