@@ -1,0 +1,127 @@
+prose:
+  rooturl: ''
+  siteurl: ''
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          help: "Displayed in the purple site header, below the header text."
+      - name: "image"
+        field:
+          element: "text"
+          label: "Header relative image path"
+      - name: "header-img"
+        field:
+          element: "text"
+          label: "Purplized header relative path"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          value: CURRENT_DATETIME
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          alterable: true
+      - name: "active"
+        field:
+          element: "select"
+          label: "Active Section"
+          help: "When this page is active, which entry in the main menu should be highlighted?"
+          options:
+          - name: 'Gallery'
+            value: 'gallery'
+          - name:   'Shop'
+            value: 'shop'
+          - name:   'Blog'
+            value: 'blog'            
+          - name:   'Tutorials'
+            value: 'tutorials'
+          - name:   'Services'
+            value: 'services'
+          - name:   'Contact'
+            value: 'contact'            
+    _art:
+      - name: "image"
+        field:
+          element: "text"
+          label: "Header relative image path"
+      - name: "price"
+        field: 
+          element: "number"
+          label: "Price"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "image"
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          value: CURRENT_DATETIME
+      - name: "homepage"
+        field:
+          element: "checkbox"
+          label: "Display on Homepage"
+    _services:
+      - name: "header-img"
+        field:
+          element: "text"
+          label: "Header relative image path"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "active"
+        field:
+          element: "hidden"
+          value: "services"          
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          help: "Description of services, please be somewhat brief and check the page styling afterwards."  
+      - name: "group"
+        field:
+          element: "select"
+          label: "Grouping"
+          help: "What logical grouping does this item display in? Check frontend after deployment to confirm proper placement."
+          options:
+          - name: 'One'
+            value: 'one'
+          - name:   'Two'
+            value: 'two'
+          - name:   'Three'
+            value: 'three'                      
+      - name: "offering-type"
+        field:
+          element: "select"
+          label: "Offering Type"
+          help: "What offering does this post fall under?"
+          options:
+          - name: 'Commissions'
+            value: 'commissions'
+          - name:   'Live'
+            value: 'live'
+          - name:   'Tutor'
+            value: 'tutor'              
+  ignore:
+    - _config.yml
+    - /_prose.yml
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - /docs
