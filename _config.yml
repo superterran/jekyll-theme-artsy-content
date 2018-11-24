@@ -1,2 +1,5 @@
 theme: jekyll-theme-artsy
-source: _content/
+source: _content/ 
+
+plugins:
+  - jekyll-thumbnail

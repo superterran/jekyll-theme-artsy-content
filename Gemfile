@@ -6,7 +6,8 @@ gem "jekyll-theme-artsy", :path=>'/mnt/d/repos/artsy/'
 
 # Any plugins I'm using
 group :jekyll_plugins do
-#   gem "jekyll-sitemap"
-#   gem "jekyll-paginate"
-#   gem "jekyll-seo-tag"
+    gem "jekyll-thumbnail", :path=>'/mnt/d/repos/jekyll-thumbnail/'
+    gem 'jekyll-tagging'
+    gem 'mini_magick'
+    gem 'jekyll-paginate-v2'
 end
