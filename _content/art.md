@@ -1,7 +1,7 @@
 ---
-title: Selected Works
+title: Art Gallery
 layout: art
-description: Artwork from 2010 - Present
+description: A gallery list of all items in the repo
 active: gallery
-header-img: media/banner3.jpg
+header-img: 
 ---

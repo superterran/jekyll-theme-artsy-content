@@ -1,9 +1,9 @@
 ---
-title: The Coffee Chronicles
+title: Blog
 layout: paginated
 category: blog
-header-img: media/banner.jpg
-description: Tutorials, Musings and New Projects
+header-img: 
+description: A paginated blog section with tagging
 active: blog
 pagination:
   enabled: true

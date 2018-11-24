@@ -1,6 +1,6 @@
 ---
 layout: homepage
-main-title: 'Trina is Artsy:'
-subtitle: The Coffee Chronicles
-description: " ✂ ✏ ☕ "
+main-title: Artsy
+subtitle: A jekyll theme for the artfully minded
+description: "A really nice little slideshow effect goes here."
 ---

@@ -1,8 +1,8 @@
 ---
-title: Local Services
+title: Services
 layout: page
-description: Hire a professional artist for your next project or workshop needs.
+description: A services one-page that can be used to showcase offerings
 category: services
 active: services
-header-img: media/servicesbanner.jpg
+header-img: 
 ---

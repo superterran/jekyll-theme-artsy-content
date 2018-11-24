@@ -1,8 +1,8 @@
 ---
 title: Shop
 layout: shop
-description: Purchase artwork directly from the artist!
+description: Paypal enabled shop page, please refer to the usage guide for setup.
 category: services
 active: shop
-header-img: media/servicesbanner.jpg
+header-img: 
 ---
