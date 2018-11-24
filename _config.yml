@@ -3,3 +3,11 @@ source: _content/
 
 plugins:
   - jekyll-thumbnail
+
+nav:
+- GALLERY: "/art/"
+- SHOP: "/shop/"
+- BLOG: "/blog/"
+- TUTORIALS: "/tutorials/"
+- SERVICES: "/services/"
+- CONTACT: "/contact/"
